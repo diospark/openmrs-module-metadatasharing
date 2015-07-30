@@ -146,7 +146,7 @@
                 <constraints nullable="false"></constraints>
             </column>
 
-            <column name="import_config" type="varchar(256)" defaultValue="null"></column>
+            <column name="import_config" type="varchar(1024)" defaultValue="null"></column>
 
             <column name="remote_version" type="int" defaultValue="NULL"></column>
 
